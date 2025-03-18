@@ -1,0 +1,85 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ccc;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.logo {
+    margin-right: auto;
+    font-weight: bold;
+}
+
+
+
+.gh{
+    width: 420px ;
+    background: rgb(48, 48, 48);
+    border: 2px solid gray;
+    color: azure;
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: center;
+    margin: 50px auto; 
+    backdrop-filter: blur(20px);
+
+    }
+
+    .gh h1{
+    font-size: 36px;
+    text-align: center;
+    }
+
+    .gh .Input{
+    height: 10px;
+    width: 80%;
+    margin: 50px 0;
+   
+    }
+
+    .Input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: azure;
+    border: 2px solid whitesmoke;
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+    }
+
+    .Input ::placeholder{
+     color: whitesmoke;
+    }
+
+    .btn0 {
+        height: 45px;
+        width: 96%;
+        margin: 50px 0;
+        background: wheat;
+        outline: none;
+        border: 2px solid black;
+        border-radius: 40px;
+        display: block;
+        
+       
+      }
+      #message {
+        margin-top: 1rem;
+        text-align: center;
+        font-weight: bold;
+      }
